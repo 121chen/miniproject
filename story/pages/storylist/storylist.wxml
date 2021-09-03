@@ -1,0 +1,21 @@
+<!--pages/storylist/storylist.wxml-->
+<view class='detail-container' style='background: url({{playInfo.imageurl}}) no-repeat top/cover'></view>
+<view class='detail-mask'></view>
+<view class='detail-info'>
+  <image src="{{playInfo.imageurl}}" class='detail-coverimg'></image> 
+   <view class='detail-name'>{{playInfo.title}}</view>
+</view>
+
+<block wx:for="{{rowlist}}" wx:key="_id">
+<navigator url="/pages/storys/storys?id={{item._id}}">
+  <view class="storylist-container {{item._id === playingid ? 'playing': ''}}" bind:tap="storyselect" data-id="{{item._id}}" data-index="{{index}}">
+    
+    <view class="storylist-info" >
+    <view class="storylist-index">第{{index+1}}集</view>
+      <view class="storylist-title">
+        {{item.title}}
+      </view>
+    </view>
+  </view>
+  </navigator>
+</block>

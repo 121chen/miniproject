@@ -1,0 +1,19 @@
+<!--index.wxml-->
+<swiper style="height:450rpx" autoplay="{{true}}" indicator-dots="{{true}}" indicator-active-color="#e3170d" circular="{{true}}">
+<block wx:for="{{swiper2}}" wx:key="_id">
+<swiper-item >
+<image class="swiper"src="{{item.imageurl}}">
+</image>
+</swiper-item>
+</block>
+</swiper>
+<view class="storylist">
+<block wx:for="{{storylist}}" wx:key="_id">
+<navigator url="/pages/storylist/storylist?id={{item._id}}">
+<view class="storylist-item">
+<image class="storylist-image" src="{{item.imageurl}}"></image>
+<text class="storylist-text">{{item.text}}</text>
+</view>
+</navigator>
+</block>
+</view>

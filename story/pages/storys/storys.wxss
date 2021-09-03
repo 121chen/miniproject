@@ -1,0 +1,30 @@
+/* pages/storys/storys.wxss */
+page{
+  background-color: tomato;
+  padding: 30px;
+  color: antiquewhite;
+
+}
+.tp1{
+  height: 350rpx;
+  width: 610rpx;
+  border: thick dotted yellow;
+}
+.detail-container {
+  height: 400rpx;
+}
+
+.detail-mask {
+  position: absolute;
+  width: 100%;
+  height: 400rpx;
+  background-color:white;
+  top: 0;
+  left: 0;
+  z-index: -1;
+}
+.text{
+  padding-top: 30rpx;
+  padding-right: 110rpx;
+  text-indent: 2em;
+}

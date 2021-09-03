@@ -1,0 +1,4 @@
+<!--pages/test3/test3.wxml-->
+<view class="header">版权声明</view>
+<view class="text">欢迎使用经典故事小程序！</view>
+<view class="article">为了增强故事的可读性、趣味性，使用户得到更好的体验。本程序使用了部分图片，图片素材来源于网络搜索。转载使用并未用于商业营利，如有侵权，请联系我们进行删除。本平台拥有对此声明的最终解释权。</view>

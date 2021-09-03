@@ -1,0 +1,7 @@
+<!--pages/storys/storys.wxml-->
+<view class="detail-container"></view>
+<image class="detail-mask" src="/assets/images/1.jpeg"></image>
+<block wx:for="{{filelist}}" wx:key="_id">
+<image class="tp1"  src="{{item.imageurl}}"></image>
+<view class="text">{{item.title}}</view>
+</block>

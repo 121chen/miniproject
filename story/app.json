@@ -1,0 +1,40 @@
+{
+  "pages":[
+    "pages/index/index",
+    "pages/my/my",
+    "pages/storylist/storylist",
+    "pages/storys/storys",
+    "pages/test1/test1",
+    "pages/test2/test2",
+    "pages/test3/test3"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor":"#e3170d",
+    "navigationBarTitleText": "Weixin",
+    "navigationBarTextStyle":"white",
+  "enablePullDownRefresh": true,
+  "backgroundColor": "#474747"
+  },
+  "tabBar": {
+    "color": "#474747",
+    "selectedColor": "#d43c43",
+  
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页",
+        "iconPath": "assets/images/library.png",
+        "selectedIconPath": "assets/images/library-actived.png"
+      },
+      {
+        "pagePath": "pages/my/my",
+        "text": "我的",
+        "iconPath": "assets/images/my.png",
+        "selectedIconPath": "assets/images/my-actived.png"
+      }
+    ]
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json"
+}

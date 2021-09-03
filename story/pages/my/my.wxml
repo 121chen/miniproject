@@ -1,0 +1,27 @@
+<!--pages/my/my.wxml-->
+<view class="header">
+  <view class="tx">
+    <open-data type="userAvatarUrl"></open-data>
+  </view>
+  <open-data type="userNickName" class="name"></open-data>
+</view>
+<view class="nav">
+  <view class="nav-item">
+    <navigator url="/pages/test1/test1" class="nav-content" open-type="navigate" hover-class="none">
+      <text class="iconfont icon-history"></text>
+      <text class="text">关于</text>
+      <text class="iconfont icon-arrow"></text>
+    </navigator>
+  </view>
+  <view class="nav-item">
+    <navigator url="/pages/test2/test2"class="nav-content" hover-class="none">
+      <text class="iconfont icon-collect"></text>
+      <text class="text">功能介绍</text>
+      <text class="iconfont icon-arrow"></text>
+    </navigator>
+  </view>
+
+</view>
+<view class="bottom1">
+<navigator url="/pages/test3/test3"class="bottom" hover-class="none">《版权声明》</navigator>
+</view>

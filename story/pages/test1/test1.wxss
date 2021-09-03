@@ -1,0 +1,15 @@
+/* pages/test1/test1.wxss */
+.header{
+  display: flex ;
+ font-size: 60rpx;
+ font-weight: 900rpx;
+ padding-top: 40rpx;
+ justify-content: center;
+}
+.article{
+  text-indent: 2em;
+  padding-left: 20rpx;
+  padding-right: 20rpx;
+}
+
+

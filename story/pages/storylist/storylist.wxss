@@ -1,0 +1,86 @@
+/* pages/storylist/storylist.wxss */
+page{
+  background-color:wheat;
+}
+.detail-container {
+  height: 450rpx;
+  filter: blur(1rpx);
+  opacity: 0.4;
+}
+
+.detail-mask {
+  position: absolute;
+  width: 100%;
+  height: 450rpx;
+  background-color: #333;
+  top: 0;
+  left: 0;
+  z-index: -1;
+}
+
+.detail-info {
+  display: flex;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 320rpx;
+  padding: 20rpx;
+  box-sizing: border-box;
+  align-items: center;
+}
+
+.detail-coverimg {
+  width: 320rpx;
+  height: 280rpx;
+  margin-right: 20rpx;
+  margin-top: 120rpx;
+  border-radius: 20rpx;
+}
+
+.detail-name {
+  flex-grow: 1;
+  margin-top: 120rpx;
+  line-height: 40rpx;
+  text-indent: 2em;
+  width: 0;
+  font-size: 36rpx;
+  font-weight: 700;
+  color:#ff0000;
+}
+
+.storylist-container {
+  display: flex;
+  padding: 14rpx 20rpx;
+  align-items: center;
+  line-height: 60rpx;
+}
+
+.storylist-index {
+  color: #888;
+  font-size: 34rpx;
+  width: 120rpx;
+  margin-top: 20rpx;
+}
+
+.storylist-info {
+  display: flex;
+  flex-grow: 1;
+  width: 100%; 
+   border: groove;
+   border-radius: 20%;
+}
+
+.storylist-title {
+  font-size: 40rpx;
+  font-weight: 700rpx;
+  color: #333;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  margin-top: 20rpx;
+}
+
+.playing view, .playing text {
+  color: #d43c33;
+}
